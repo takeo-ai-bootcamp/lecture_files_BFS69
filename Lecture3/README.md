@@ -14,7 +14,7 @@ git clone <url>
 ```
 
 Example:
-this command will clone this repositary
+Note : this command will clone this repositary
 
 ```script
 git clone https://github.com/takeo-ai-bootcamp/lecture_files_BFS69.git
