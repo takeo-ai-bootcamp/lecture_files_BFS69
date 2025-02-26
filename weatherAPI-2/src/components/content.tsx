@@ -1,9 +1,9 @@
-function Content() {
+function Content({ temperature }) {
   return (
     <div className="content_wrapper">
       <div className="content_container">
         <div className="temperature">
-          <p>23 C</p>
+          <p>{temperature} C</p>
         </div>
         <div className="location">
           <p>Pokhara</p>
