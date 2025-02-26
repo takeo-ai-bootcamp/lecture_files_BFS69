@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+#root {
+  height: 100vh;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+button {
+  outline: none;
+  border: 0;
+  background-color: #2b2b2b;
+  color: #fafafa;
+  display: flex;
+  place-items: center;
+  gap: 5px;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.header {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.header .logo img {
+  height: 50px;
+  width: 50px;
+}
+
+.content_wrapper {
+  display: flex;
+  place-items: center;
+  height: 100%;
+  width: 100%;
+}
+.content_container {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  gap: 20px;
+}
+
+.content_container .temperature p {
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.content_container .location p {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.content_container .high_and_low p {
+  font-size: larger;
+}
